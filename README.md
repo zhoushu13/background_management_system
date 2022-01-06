@@ -1,24 +1,6 @@
-# vue_elmui_demo
+# vue + elementUI + axios + mockjs + echarts
 
-## Project setup
-```
-npm install
-```
+由此 [教程](https://www.bilibili.com/video/BV1QU4y1E7qo)
+仿写
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+to be continue ...
