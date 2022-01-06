@@ -2,8 +2,6 @@
 node_modules
 # /dist
 .cspell
-.gitignore
-
 
 
 # local env files
