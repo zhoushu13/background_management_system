@@ -8,9 +8,9 @@ export default {
             pos: 'peking'
         },
     },
-    actions: {
-        loginSet() {
+    // actions: {
+    //     loginSet() {
 
-        },
-    },
+    //     },
+    // },
 }

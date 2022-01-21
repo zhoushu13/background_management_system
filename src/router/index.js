@@ -7,15 +7,15 @@ Vue.use(VueRouter)
 // import Layout from '../components/Layout.vue'
 
 const router = new VueRouter({
+    mode: 'hash',
     routes: [
         ...NavRoutes.state,
     ]
 })
 
-router.beforeEach((to, from, next) => {
-    next();
-
-})
+// router.beforeEach((to, from, next) => {
+//     next();
+// })
 
 router.afterEach((to) => {
     document.title = to.meta.title || '后台管理系统';

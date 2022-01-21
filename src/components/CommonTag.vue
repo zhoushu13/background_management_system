@@ -20,7 +20,7 @@ import { mapState, mapMutations } from "vuex";
 export default {
   name: "Tag",
   computed: {
-    ...mapState({ tags: (state) => state.tabList }),
+    ...mapState({ tags: (state) => state.tags.tabList }),
   },
   methods: {
     ...mapMutations({
@@ -30,6 +30,7 @@ export default {
     jump(t) {
       this.$router.push({ name: t.name });
       this.bread(t.name);
+      console.log(this.$store);
     },
     close(t, i) {
       let len = this.tags.length - 1;

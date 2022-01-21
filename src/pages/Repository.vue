@@ -1,5 +1,5 @@
 <template>
-  <div class="Repository"></div>
+  <div class="Repository">Repository-Page</div>
 </template>
 
 <script>

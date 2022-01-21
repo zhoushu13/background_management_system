@@ -18,7 +18,7 @@ export default {
   name: "Bread",
   computed: {
     ...mapState({
-      current: (state) => state.currentMenu,
+      current: (state) => state.tags.currentMenu,
     }),
   },
 };

@@ -1,4 +1,6 @@
+
 import Mock from 'mockjs'
+
 let res = []
 export default {
     getStatisticalData: () => {
