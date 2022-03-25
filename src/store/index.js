@@ -1,28 +1,17 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
-import routes from './routes'
-import asideTrigger from './asideTrigger'
-import user from './user'
-import tags from './tags'
+import routes from "./routes";
+import isCollapse from "./isCollapse";
+import user from "./user";
+import tags from "./tags";
 export default new Vuex.Store({
-    modules: {
-        routes,
-        asideTrigger,
-        user,
-        tags
-    },
-    state: {
-        color: [
-            '#409EFF',
-            '#67C23A',
-            '#E6A23C',
-            '#F56C6C',
-            '#909399',
-            '#606266',
-        ],
-
-    },
-})
+  modules: {
+    routes,
+    isCollapse,
+    user,
+    tags,
+  },
+});

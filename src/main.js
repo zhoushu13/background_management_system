@@ -1,19 +1,19 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
 
-import store from './store/index'
-import router from './router'
+import store from "src/store";
+import router from "src/router";
 
-import './configs/elm';
+import "src/configs/elm";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
-import '@/api/mock'
-
-// if (process.env.NODE_ENV === 'development') require('@/api/mock')
+if (process.env.NODE_ENV === "development") {
+  import("src/api/mock");
+}
 
 new Vue({
-  render: h => h(App),
+  render: (h) => h(App),
   router,
-  store
-}).$mount('#app')
+  store,
+}).$mount("#app");

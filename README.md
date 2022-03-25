@@ -1,6 +1,5 @@
-# vue + elementUI + axios + mockjs + echarts
+# 后台管理系统
 
-由此 [教程](https://www.bilibili.com/video/BV1QU4y1E7qo)
-仿写
+## 技术栈
 
-to be continue ...
+vue2.x + element-ui + vuex + vue-router + axios + mockjs + echarts

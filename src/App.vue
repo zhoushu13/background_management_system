@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Manager />
+    <Layout />
   </div>
 </template>
 
 <script>
-import "./assets/css/reset.css";
-import Manager from "./components/Manager.vue";
+import "src/assets/css/reset.css";
+import Layout from "src/pages/Layout";
 export default {
   name: "App",
   components: {
-    Manager,
+    Layout,
   },
 };
 </script>
